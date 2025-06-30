@@ -1,8 +1,12 @@
 {
-    "name": "laravelcrudgenerator/laravel-crud-generator",
+    "name": "bilalkoder/laravel-crud-generator",
     "description": "Laravel CRUD Generator — Build APIs in Seconds!",
     "keywords": [
-        "laravelcrudgenerator",
+        "laravel",
+        "crud",
+        "api",
+        "generator",
+        "bilalkoder",
         "laravel-crud-generator"
     ],
     "homepage": "https://github.com/laravelcrudgenerator/laravel-crud-generator",
