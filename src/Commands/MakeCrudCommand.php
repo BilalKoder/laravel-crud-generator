@@ -15,7 +15,8 @@ class MakeCrudCommand extends Command
         $name = Str::studly($this->argument('name'));
         $this->info("Generating CRUD for: {$name}");
 
-        $this->call('make:model', ['name' => "Models/{$name}", '-m' => true]);
+       
+        $this->call('make:model', ['name' => $name, '-m' => true]);
         $this->call('make:request', ['name' => "{$name}Request"]);
         $this->call('make:controller', ['name' => "{$name}Controller", '--api' => true]);
 
